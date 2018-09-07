@@ -1,0 +1,5 @@
+<label>Enter Username</label>
+<input type="text" [(ngModel)]="username">
+<hr>
+<button [disabled]="!username" (click)="onReset()">ENTER DAT USERNAME</button>
+<p>{{ username }}</p>
